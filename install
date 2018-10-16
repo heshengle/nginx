@@ -1,15 +1,15 @@
-nx需要包括Nginx的库，安装Nginx的库
+nginx需要包括Nginx的库，安装Nginx的库
 
-#rpm -Uvh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
+rpm -Uvh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
 
 (2)使用下面命令安装nginx
 
-#yum install nginx
+yum install nginx
 
 (3)启动Nginx
 
-#service nginx start
+service nginx start
 
 或
 
-#systemctl start nginx.service
+systemctl start nginx.service
