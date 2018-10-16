@@ -1,6 +1,8 @@
 #配置文件
 
-server { listen 80; server_name hlc.com;
+server { 
+   listen 80; 
+   server_name hlc.com;
 
 #charset koi8-r;
 #access_log  /var/log/nginx/log/hlc-core.access.log  main;
