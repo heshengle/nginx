@@ -17,3 +17,4 @@ systemctl start nginx.service
 (4) 设置开机启动
 
 chkconfig nginx on
+chkconfig php-fpm on
